@@ -1,0 +1,121 @@
+body{
+    background-color: black;
+    font-family: "Digital tech";
+    color: yellowgreen;
+}
+
+#textArea{
+    -moz-appearance: textfield-multiline;
+    -webkit-appearance: textarea;
+    border: 1px dashed yellowgreen ;
+    font: medium -moz-fixed;
+    font: -webkit-small-control;
+    height: 28px;  
+    padding: 2px;
+    resize: both;
+    height:100px;
+    width: 300px;
+    margin-top: 20px;
+    resize: none;
+}
+#text{
+    -moz-appearance: textfield-multiline;
+    -webkit-appearance: textarea;
+    border: 1px solid yellowgreen ;
+    font: medium -moz-fixed;
+    font: -webkit-small-control;
+    margin-bottom: 50px;
+    margin-left: 90px;
+    resize: both;
+    height:200px;
+    width: 100px;
+    resize: none;
+}
+h1{
+    text-align: center;
+}
+#inGame{
+    margin-left: 150px;
+}
+#showWord{
+    text-align:center;
+    margin-bottom: 10px;
+}
+#options{
+    margin-left: 450px;
+    margin-top: 50px;
+}
+#results{
+    margin-left: 375px;
+    margin-top: 50px;
+    font-size: 35px;
+}
+#twoView{
+    margin-left: 590px;
+}
+#game{
+    margin-left: 450px;
+    margin-top: 30px;
+}
+#chooseWord{
+    float: right;
+    width: 60px;
+    height: 40px;
+    font-size: 17px;
+}
+#wordInput{
+    height: 35px;
+    font-size: 17px;
+    width: 90px;
+}
+#attempts{
+    margin-bottom: 200px;
+    margin-left: 48px;
+    height: 50px;
+    width: 50px;
+    font-size: 15;    
+}
+.dropbtn {
+    margin-bottom: 32px;
+    background-color: yellowgreen;
+    color: black;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+input{
+    border: 0.1em solid yellowgreen;
+    background-color: black;
+    color: greenyellow;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {background-color: lightgray}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: darkslategray;
+}

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Socket.IO Word Scramble</title>
+	<script src="/socket.io/socket.io.js"></script>
+	<script type="text/javascript" src="game.js"></script>
+	<link href="style.css" rel="stylesheet">
+</head>
+<body>
+	<h1>Decrypt.IO</h1>
+	<div id="inGame"></div>
+	<div id="showWord"></div>
+	<div id="options">
+	<table>
+		<th>Difficulty</th>
+		<th>Words</th>
+		<tr>
+		 <td><div class="dropdown">
+  			<button class="dropbtn">Choose</button>
+  			<div class="dropdown-content">
+    			<a id="easy" href="#">Easy</a>
+    			<a id="medium" href="#">Medium</a>
+    			<a id="hard" href="#">Hard</a></div></div></td>
+		 	<td><div id="textArea" contenteditable="false"></div></td></tr>
+	 		<tr><td></td>
+		 	<td><input type="text" id="wordInput" autofocus>
+			 <input type="button" id="chooseWord" value="enter"></td></tr>	 
+	</table>
+</div>
+<div id="twoView">
+	<input type="text" id="guessWord" maxlength="8" placeholder="enter guess here">
+	<input type="button" id="enterLetter" value="enter">
+</div>
+	<div id="results"></div>
+</div>
+</body>
+</html>
